@@ -1,0 +1,79 @@
+
+    body {
+      font-family:'Roboto Mono', monospace;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    h1 {
+      color: #333333;
+    }
+
+    #timer-display {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    #progress-bar {
+      width: 80%;
+      margin: 0 auto;
+      height: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+    }
+
+    #progress-bar-inner {
+      height: 100%;
+      background-color: #FFA500;
+      border-radius: 5px;
+    }
+
+    #start-button,
+    #stop-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #FFB47C;
+      color: black;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+      border-radius: 15px;
+    
+    }
+
+    #break-duration-select {
+      margin-top: 20px;
+      padding: 8px 18px;
+      font-size: 16px;
+      border-radius: 10px;
+      font-family:'Roboto Mono', monospace;
+      background-color: skyblue;
+      margin-right: 10px;
+    }
+
+    #break-notification {
+      margin-top: 30px;
+    }
+
+    #session-counter {
+      margin-top: 20px;
+    }
+
+    #settings {
+      margin-top: 30px;
+      border-top: 1px solid #ccc;
+      padding-top: 20px;
+    }
+
+    .settings-section {
+      margin-bottom: 20px;
+    }
+
+    .settings-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .shortcut-info {
+      margin-top: 20px;
+    }
